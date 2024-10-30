@@ -1,0 +1,14 @@
+form {
+    width: 600px;
+    margin: 0 auto;
+}
+form label, 
+form input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px
+}
+input {
+    border: 1px solid black;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formatīvais darbs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Tehniskais atbalsts</h1>
+    <form action="#">
+      <label for="name">Jūsu vārds:</label><br />
+      <input type="text" name="name" id="name" /><br />
+      <p>Izvēlieties tēmu:</p>
+      <label for="tehniskais-atbalsts">Tehniskais atbalsts</label>
+      <input
+        type="radio"
+        name="teema"
+        id="tehniskais-atbalsts"
+        value="tehniskais-atbalsts"
+      />
+      <br />
+      <label for="piedāvājumi">Piedāvājumi</label>
+      <input
+        type="radio"
+        name="teema"
+        id="piedāvājumi"
+        value="piedāvājumi"
+      /><br />
+      <label for="vispārīgi-jautājumi">Vispārīgi jautājumi</label>
+      <input
+        type="radio"
+        name="teema"
+        id="vispārīgi-jautājumi"
+        value="vispārīgi-jautājumi"
+      />
+      <br /><br />
+      <div>
+        <label for="apstiprinājumsVisu">Es visu pieņemu un tā tālāk.</label>
+        <input
+          type="checkbox"
+          id="apstiprinājumsVisu"
+          name="apstiprinājums"
+          value="apstiprinājums"
+        />
+      </div>
+      <br />
+      <div>
+        <button type="submit">nosūtīt</button>
+      </div>
+    </form>
+  </body>
+</html>
